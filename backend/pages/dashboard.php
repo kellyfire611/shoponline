@@ -2,14 +2,19 @@
 // Include file cấu hình ban đầu của `Twig`
 require_once __DIR__.'/../../bootstrap.php';
 
-// Tạo danh sách sản phẩm mẫu
-// Các bạn có thể viết các câu lệnh truy xuất vào database để lấy dữ liệu, ...
+
 $products = [
     [
         'name'          => 'Notebook',
         'description'   => 'Core i7',
         'value'         =>  800.00,
         'date_register' => '2017-06-22',
+    ],
+    [
+        'name'          => 'Apple',
+        'description'   => 'Core i7',
+        'value'         =>  800.00,
+        'date_register' => '2019-06-22',
     ],
     [
         'name'          => 'Mouse',
